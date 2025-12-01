@@ -1,5 +1,4 @@
 const { ObjectId } = require("mongodb")
-
 module.exports = (app) => {
     app.get("/noticias/id/:id", async (req, res) => {
         try {
